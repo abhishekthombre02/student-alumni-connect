@@ -1,0 +1,109 @@
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.user-section {
+  text-align: right;
+  display: flex;
+}
+
+.profile-image {
+  width: 35px; /* Adjust the size of your profile image */
+  height: 35px; /* Adjust the size of your profile image */
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 10px;
+    
+     
+}
+
+.username {
+  font-size: 13px;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.logo-section {
+  text-align: left;
+  display: flex;
+}
+.like{
+  color: grey;
+}
+
+.section {
+  width: 34px; /* Adjust the size of your logo */
+  height: 34px; /* Adjust the size of your logo */
+  float: right;
+  
+}
+
+.page {
+    max-width: 800px;
+    margin-bottom: 0;
+    margin: auto;
+    padding: 80px;
+    justify-content: center;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer.css */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+    background-color: white;
+    color: rgb(26, 13, 13);
+    
+  }
+   .logo-section{
+    align-items: center;
+    text-align: left;
+    display: flex
+    ;
+  }
+  p{
+    text-align: justify;
+  }
+  .logo-section img {
+    width: 30px; /* Adjust the width of your logos */
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    
+  }
+  .diemslogo{
+    
+        max-width: 100%;
+        height: auto;
+    
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+  }
+  
+  .contact-section div {
+    margin-right: 20px;
+  }
+  
+  .contact-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  

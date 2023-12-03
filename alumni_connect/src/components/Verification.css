@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    width: 100%;
+    margin:8vh auto 10px auto;
+    background-color:white;
+    padding:10px;
+    align-items:center;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.22),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+.left-container{
+   
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.login-image{
+     
+    background-image: url("./Images/register.jpeg");
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.right-container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+ 
+    width: 80%;
+    padding:10px;
+    margin:auto;
+}
+.logo{
+    background-image: url("./Images/DIEMS Logo.svg");
+    width:100px;
+    height: 40px;
+    background-size: cover;
+    margin: 1rem auto;
+}
+
+.login-form h1,h2{
+    margin-bottom:20px;
+    text-align: center;
+}
+label{
+    display: block;
+    padding-bottom:5px;
+}
+
+.margin-10{
+    margin-bottom: 10px;
+}
+
+.form input,select{
+    padding-left:0.4rem;
+    height: 30px;
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    box-shadow: 0 0 2px purple;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form input:active{
+    outline:purple;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.login-form p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.align-together{
+
+    display: flex;
+    justify-content:space-between;
+    box-sizing: content-box;
+}
+select{
+    width:200px;
+    height: 30px;
+}
+.verify-btn {
+    
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #c034d9;
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    margin-bottom:20px;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0 0 2px rgb(130, 108, 130);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #9b35c1;
+    text-decoration: none;
+  }
+  #signin{
+    margin-top:20px;
+  }

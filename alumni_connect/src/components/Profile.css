@@ -1,0 +1,169 @@
+.container{ 
+    display: flex;
+    /* background-color: lightblue; */
+     justify-content: space-around;
+    width: 90%;
+    height: 100vh;
+    margin:5px auto;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    align-items: center;
+    width: 20%;
+    height: 80%;
+    margin-top:5%;
+    background-color:white;
+    padding:10px;
+    align-items:center;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.22),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+
+}
+.profile-btn{
+
+    padding: 5px 40px 5px 40px; 
+    width:80%;
+} 
+
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #b834d9;
+    text-decoration: none;
+    display: block;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .btn:hover {
+    background: #da3cfd;
+    text-decoration: none;
+  } 
+ 
+  li{
+    list-style: none;
+    margin:10px;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+  .menu i{
+    margin-top:12px;
+    margin-bottom:5px;
+  }
+  .div-flex{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* card2*/
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+    margin-top:5%;
+}
+.subcard-1{
+    height: 90%;
+    background-color: white;
+    padding:10px;
+    align-items:center;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.22),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+
+}
+.content{
+    width: 90%;
+    margin:0px auto;
+}
+.logout-btn{
+    
+    width: 80px;
+    padding: 5px; 
+    background: #e41907;
+    position: static;
+    float:right;
+    margin:10px 20px;
+
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.profile-photo{
+    background-image: url("./Images/profile.svg");
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:10px;
+}
+.college-name{
+   margin-left:20px;
+    width: 50%;
+}
+.bottom-content{
+    display: flex;
+    margin-top:3rem;
+    justify-content: space-between;
+}
+th,td{
+    text-align: left;
+    padding:5px;
+}
+
+.subcard-2{
+    height: 42%;
+    background-color: white;
+    padding:10px;
+    align-items:center;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.22),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+
+.submit{
+    background-color: #4889EE;
+    font-family: Ubuntu;
+    font-size: 24px;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 43px;
+    color: #FFF;
+    cursor: pointer;
+    
+}
+
+.submit:hover{
+    background-color: #BA68C8;
+}
+.profile-submit-button-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pointer{
+    cursor: pointer;
+}
